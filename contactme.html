@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <meta name="contact" content="contact-submit">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Merriweather|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="./contactme.css">
+  </head>
+ <body>
+  <header class="site-header">
+    <div class="logo">
+      <h2 class="merriweather">YogaMe</h2>
+    </div>
+    <nav class="main-nav">
+     <p class="main-nav-item lato"> <a href="./main.html">Home</a></p>
+     <p class="main-nav-item lato"> <a href="./booking.html">Book</a></p>
+    </nav>
+  </header>
+  <div class="container">  
+    <form class = "contact" id="contact">
+      <div class =left-container>
+      <h3>Contact</h3>
+      <br>
+      <h4>Want to begin your yoga practice but unsure where to start?</h4>
+        <br>
+        <h4>Please get in touch if you have any questions!</h4>
+      </div>
+      <div class = right-container>
+        <input id = "name" placeholder="Your Name*" type="text" required>
+        <input id = "email" placeholder="Your Email Address*" type="email"required>
+      <textarea id = "questions" placeholder="Type Your Message Here...." required></textarea>
+        <button class="submit" type="submit" id="contact-submit">Submit</button>
+      </div>
+    </fieldset>
+    </form>
+   </div>
+   
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p class="modal-text"></p>
+  </div>
+</div>
+   
+   <footer class="site-footer lato">
+    &copy; 2022 YogaMe. Made in Melbourne.
+   </footer>
+</body>
+<script src="./contactme.js"></script>
+</html>

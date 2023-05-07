@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:#867070;
+  }
+  
+  .merriweather { font-family: 'Merriweather', serif; }
+        .oswald { font-family: 'Oswald', sans-serif; }
+          .lato { font-family: 'Lato', sans-serif; }
+ .box {
+  width: 80%;
+  max-width: 720px;
+  margin: 2% auto;
+  border: 5px solid  #DBA39A;;
+  padding: 0 2%;
+  background: white;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/abstract-yoga-background_23-2147540358.jpg?size=626&ext=jpg&ga=GA1.1.1757450816.1680331898&semt=ais);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-family: 'Lato';
+}
+
+h1 {
+  padding: 2% 0 2% 0;
+  color: #867070;
+  font-family: 'Merriweather';
+}
+
+.post {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.post p:nth-of-type(1) {
+  border-left: 5px solid  #DBA39A;;
+  padding-left: 10px;
+}
+
+hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.nav-bar .dropdown {
+    background-color: #DBA39A;
+    position: relative;
+    float: right;
+     }
+
+ @media (min-width: 500px) { 
+    .nav-bar .dropdown {
+     margin-right: 100px;    
+    }
+}
+
+.nav-bar .dropdown .menu-control,
+.nav-bar a {
+  color:#867070;
+  font-size: 15px;
+  padding: 12px 22px 12px 22px;
+  outline: none !important;
+  border: none !important;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  }
+
+.nav-bar .dropdown .menu-control:hover,
+.nav-bar a:hover {
+  background-color: #F0DBDB;
+  color: #DBA39A;
+}
+
+.nav-bar .dropdown .dc-section {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+  }
+
+.nav-bar .dropdown .dc-section a:hover {
+    background-color: #DBA39A;
+    color: white;
+    }
+  
+  .nav-bar .dropdown:hover .dc-section {
+    display: block;
+  }
+  .site-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 25px;
+  }
+  
